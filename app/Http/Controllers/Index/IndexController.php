@@ -11,6 +11,7 @@ class IndexController extends Controller
 {
     public function index(){
 
+        echo 123;
         // Redis::del('slide');
         $slide = Redis::get('slide');
         //dump($slide);die;
